@@ -341,7 +341,7 @@ static const struct file_operations pcie_blk_fops = {
 	.read           = pcie_blk_read,
 	.write          = pcie_blk_write,
 	.unlocked_ioctl = pcie_blk_ioctl,
-	.llseek         = no_llseek,
+	.llseek         = noop_llseek,
 };
 
 /* ---------- PCI probe/remove ---------- */
