@@ -349,8 +349,8 @@ static const struct file_operations pcie_blk_fops = {
 /*
  * Replace with actual IDs of your QEMU PCIe device (see lspci -nn in guest).
  */
-#define VENDOR_ID_LAB 0x1234
-#define DEVICE_ID_LAB 0x11e8
+#define VENDOR_ID_LAB 0x1b36
+#define DEVICE_ID_LAB 0x0005
 
 static const struct pci_device_id pcie_blk_ids[] = {
 	{ PCI_DEVICE(VENDOR_ID_LAB, DEVICE_ID_LAB) },
